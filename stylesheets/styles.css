@@ -51,7 +51,7 @@ a small {
 }
 .wrapper p{
   text-align: center;
-  margin: 200px 0 0 0;
+  margin: 300px;
 }
 
 blockquote {
@@ -96,7 +96,7 @@ th {
 }
 
 img {
-  max-width:50%;
+  width: 25%;
 }
 
 header {
