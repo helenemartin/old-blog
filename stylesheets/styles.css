@@ -50,15 +50,15 @@ a small {
   margin:0 auto;
 }
 .wrapper p {
-  text-align: center;
+  text-indent: 20px;
   
 }
 
 blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
+  /*border-left:1px solid #e5e5e5;*/
+  
   font-style:italic;
+  width: 500px;
 }
 
 code, pre {
@@ -95,13 +95,10 @@ th {
   color:#444;
 }
 
-img {
-  width: 25%;
-}
 
 header {
   width:270px;
-  float:left;
+  height: 300px;
   position:fixed;
 }
 
@@ -167,11 +164,15 @@ section {
 
   width: 900px;
   float:left;
-  padding:100px;
+  
 }
 
 section ul {
   line-height: 1;
+}
+
+section h2 {
+  color: #707070;
 }
 
 small {
@@ -190,8 +191,11 @@ img {
 -webkit-border-radius: 20px;
 -moz-border-radius: 20px;
 border-radius: 20px;
-width: 100%;
-margin: 0 auto;
+box-shadow: #707070 0.1em 0.1em 0.2em;
+width: 500px;
+margin: 0 60px 0 40px;
+
+/*margin: 0 auto;*/
 
 }
 
